@@ -1,1 +1,13 @@
-this is high time 
+{
+  "rules": [
+    {
+      "pattern": "hello|hi",
+      "response": ["Hello!", "Hi there!", "Hey!"]
+    },
+    {
+      "pattern": "my name is (.*)",
+      "response": ["Nice to meet you, ${name}!"]
+    }
+  ],
+  "default": "Sorry, I didn't understand 😅"
+}
