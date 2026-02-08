@@ -2,7 +2,7 @@
   "rules": [
     {
       "pattern": "hello|hi",
-      "response": ["Hello!", "Hi there!", "Hey!"]
+      "response": ["Hello!", "<b>Hi</b> there!", "Hey!"]
     },
     {
       "pattern": "my name is (.*)",
