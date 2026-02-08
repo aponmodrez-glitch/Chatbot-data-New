@@ -3,32 +3,32 @@
     {
       "pattern": "hello|hi",
       "response": [
-        "Hello! 👋 **Welcome to Ariyan Minecraft Build Store!**",
-        "Hi there! I can help you **buy Minecraft Builds**."
+        "Hello! 👋 Welcome to Ariyan Minecraft Build Store!",
+        "Hi there! I can help you buy Minecraft Builds."
       ]
     },
     {
       "pattern": "1",
       "response": [
-        "**🏡 Mansion Details:**\n✔ **Size:** Large\n✔ **Interior:** Included\n✔ **Price:** $10\n✔ **Delivery Time:** 48 Hours\n\nTo **order**, type: ORDER"
+        "🏡 Mansion Details:\n✔ Size: Large\n✔ Interior: Included\n✔ Price: $10\n✔ Delivery Time: 48 Hours\n\nTo order, type: ORDER"
       ]
     },
     {
       "pattern": "ORDER",
       "response": [
-        "✅ **Order Summary:**\n🧱 **Build:** Mansion\n💵 **Price:** $10\n⏱ **Delivery:** 48 Hours\n\nTo continue with **payment**, type: PAY"
+        "✅ Order Summary:\n🧱 Build: Mansion\n💵 Price: $10\n⏱ Delivery: 48 Hours\n\nTo continue with payment, type: PAY"
       ]
     },
     {
       "pattern": "PAY",
       "response": [
-        "💳 **Payment Method:** Binance (USDT)\n📌 **Binance ID:** YOUR_BINANCE_ID_HERE\n**Network:** TRC20\n**Amount:** $10\n\nAfter payment, send the **screenshot** to:\n📧 **Email:** yourgmail@gmail.com\n📨 **Telegram:** https://t.me/yourusername"
+        "💳 Payment Method: Binance (USDT)\n📌 Binance ID: YOUR_BINANCE_ID_HERE\nNetwork: TRC20\nAmount: $10\n\nAfter payment, send the screenshot to:\n📧 Email: yourgmail@gmail.com\n📨 Telegram: https://t.me/yourusername"
       ]
     },
     {
       "pattern": ".*screenshot.*",
       "response": [
-        "⏳ **Payment received, checking now...**\nOnce verified, your **Mansion build** will be started shortly. Thank you! ❤️"
+        "⏳ Payment received, checking now...\nOnce verified, your Mansion build will be started shortly. Thank you! ❤️"
       ]
     }
   ],
