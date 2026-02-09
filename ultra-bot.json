@@ -1,35 +1,38 @@
 {
   "rules": [
     {
-      "pattern": "hello|hi",
+      "pattern": "help|help me|hi|hello|hey|what's up|hi there",
       "response": [
-        "Hello! 👋 Welcome to Ariyan Minecraft Build Store!",
-        "Hi there! I can help you buy Minecraft Builds."
+        "Hey! How can I help you?\nTo help you we have prepared some most asked question for you.\nThese are given below:\n\n💳 <b>Purchase Information and Payment</b>\n• Tell me How can I get my product.\n• Tell me about payment method.\n• I have already done the payment.What next?\n\n✅ <b>Activities</b>\n• I want to buy a product.\n\n⚠️ <b>Problem and Issues</b>\n• How do I contact with the owner.\n• My product is not working."
       ]
     },
     {
-      "pattern": "1",
-      "response": [
-        "🏡 Mansion Details:\n✔ Size: Large\n✔ Interior: Included\n✔ Price: $10\n✔ Delivery Time: 48 Hours\n\nTo order, type: ORDER"
-      ]
+      "pattern": "Tell me How can I get my product.|How can I get my product.",
+      "response": [`To get your product you need to follow these steps:\n\n• Enter here first "<b>PCN</b>" then enter a space and type product code.\n\nExample:\nPCN 000000\n\n• Then you can see the price of this product\n Send $(Product Price) to my\n Binance ID: <b>1144720614</b>\n| You can see another 6 digit code.\n This looks like\n\nGP2078  (this is an example just)\n\nSend this code and send the screenshot of receipt of transaction in \n• Email <a href="mailto:ariyanpersonalchat@gmail.com" style="color: #00bfff;">ariyanpersonalchat@gmail.com</a>\nor\n• Telegram <a href="https://t.me/ariyanmcpe" target="_blank" style="color: #00bfff;">@ariyanmcpe</a>.\n• You will get your product in 48 hours`]
     },
     {
-      "pattern": "ORDER",
-      "response": [
-        "✅ Order Summary:\n🧱 Build: Mansion\n💵 Price: $10\n⏱ Delivery: 48 Hours\n\nTo continue with payment, type: PAY"
-      ]
+      "pattern": "I have already done the payment.What next?|I have already done the payment.",
+      "response": [`After Completing your Payment,\nSend the second code (after entering product code you will get it) and send the screenshot of receipt of transaction in \n• Email <a href="mailto:ariyanpersonalchat@gmail.com" style="color: #00bfff;">ariyanpersonalchat@gmail.com</a>\nor\n• Telegram <a href="https://t.me/ariyanmcpe" target="_blank" style="color: #00bfff;">@ariyanmcpe</a>.\n• You will get your product in 48 hours`]
     },
     {
-      "pattern": "PAY",
-      "response": [
-        "💳 Payment Method: Binance (USDT)\n📌 Binance ID: YOUR_BINANCE_ID_HERE\nNetwork: TRC20\nAmount: $10\n\nAfter payment, send the screenshot to:\n📧 Email: yourgmail@gmail.com\n📨 Telegram: https://t.me/yourusername"
-      ]
+      "pattern": "Tell me about payment method.|payment method",
+      "response": ["Here are payment methods\n\n1. Binance\n(Only Binance available for now)\n\nBinance ID: <b>1144720614</b>"]
     },
     {
-      "pattern": ".*screenshot.*",
-      "response": [
-        "⏳ Payment received, checking now...\nOnce verified, your Mansion build will be started shortly. Thank you! ❤️"
-      ]
+      "pattern": "I want to buy a product.",
+      "response": [`Enter here first "<b>PCN</b>" then enter a space and type product code.\n\nExample:\nPCN 000000`]
+    },
+    {
+      "pattern": "How do I contact with the owner.|My product is not working.|My product is not working.What should I do?",
+      "response": [`Contact with us: \n\n• Email <a href="mailto:ariyanpersonalchat@gmail.com" style="color: #00bfff;">ariyanpersonalchat@gmail.com</a>\n• Telegram <a href="https://t.me/ariyanmcpe" target="_blank" style="color: #00bfff;">@ariyanmcpe</a>`]
+    },
+    {
+      "pattern": "PCN 838607",
+      "response": [`🏤 <b>Minecraft Beautiful Mansion</b>\n\nDescription:\n• A beautiful Mansion in Minecraft pe• A small house\n• iron farm, huge resources\n• Netherite full armors and tools and more!\n\nPrice: $6\n\nSend $6 to my\n Binance ID: <b>1144720614</b>\n\nGet Product Code: <b>GP5759</b>\n\nSend this code and screenshot of receipt of transaction in \n• Email <a href="mailto:ariyanpersonalchat@gmail.com" style="color: #00bfff;">ariyanpersonalchat@gmail.com</a>\nor\n• Telegram <a href="https://t.me/ariyanmcpe" target="_blank" style="color: #00bfff;">@ariyanmcpe</a>.\n• You will get your product in 48 hours`]
+    },
+    {
+      "pattern": "who created you|your owner|who is your owner|your developer",
+      "response": ["This Ariyan ChatBot was created and developed by Ariyan"]
     }
   ],
   "default": "Sorry, I didn't understand 😅"
