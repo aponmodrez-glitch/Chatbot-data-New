@@ -7,31 +7,31 @@
       ]
     },
     {
-      "pattern": "Tell me How can I get my product\\.|How can I get my product\\.",
+      "pattern": "Tell me How can I get my product|How can I get my product",
       "response": [
         "To get your product you need to follow these steps:<br><br>• Enter here first \"<b>PCN</b>\" then enter a space and type product code.<br><br>Example:<br>PCN 000000<br><br>• Then you can see the price of this product<br> Send $(Product Price) to my<br> Binance ID: <b>1144720614</b><br>• You can see another 6 digit code. This looks like GP2078 (this is an example just)<br>• Send this code and send the screenshot of receipt of transaction in:<br>• Email <a href=\"mailto:ariyanpersonalchat@gmail.com\" style=\"color: #00bfff;\">ariyanpersonalchat@gmail.com</a><br>or<br>• Telegram <a href=\"https://t.me/ariyanmcpe\" target=\"_blank\" style=\"color: #00bfff;\">@ariyanmcpe</a><br>• You will get your product in 48 hours"
       ]
     },
     {
-      "pattern": "I have already done the payment\\.What next\\.|I have already done the payment\\.",
+      "pattern": "I have already done the payment\\.What next\\.|I have already done the payment",
       "response": [
         "After Completing your Payment,<br>Send the second code (after entering product code you will get it) and send the screenshot of receipt of transaction in:<br>• Email <a href=\"mailto:ariyanpersonalchat@gmail.com\" style=\"color: #00bfff;\">ariyanpersonalchat@gmail.com</a><br>or<br>• Telegram <a href=\"https://t.me/ariyanmcpe\" target=\"_blank\" style=\"color: #00bfff;\">@ariyanmcpe</a><br>• You will get your product in 48 hours"
       ]
     },
     {
-      "pattern": "Tell me about payment method\\.|payment method",
+      "pattern": "Tell me about payment method|payment method",
       "response": [
         "Here are payment methods:<br>1. Binance (Only Binance available for now)<br>Binance ID: <b>1144720614</b>"
       ]
     },
     {
-      "pattern": "I want to buy a product\\.",
+      "pattern": "I want to buy a product",
       "response": [
         "Enter here first \"<b>PCN</b>\" then enter a space and type product code.<br><br>Example:<br>PCN 000000"
       ]
     },
     {
-      "pattern": "How do I contact with the owner\\.|My product is not working\\.|My product is not working\\.What should I do\\?",
+      "pattern": "How do I contact with the owner|My product is not working|My product is not working\\.What should I do\\?",
       "response": [
         "Contact with us:<br>• Email <a href=\"mailto:ariyanpersonalchat@gmail.com\" style=\"color: #00bfff;\">ariyanpersonalchat@gmail.com</a><br>• Telegram <a href=\"https://t.me/ariyanmcpe\" target=\"_blank\" style=\"color: #00bfff;\">@ariyanmcpe</a>"
       ]
